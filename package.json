@@ -3,6 +3,9 @@
   "version": "5.3.1",
   "description": "[DEPRECATED] daemon + process manager for sharing space on the internxt network",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "bin": {
     "xcore": "bin/xcore.js",
     "xcore-start": "bin/xcore-start.js",
